@@ -1,0 +1,1414 @@
+<html>
+<head>
+  <title>助成金診断</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+</script>
+
+<div class="choose_box">
+      <!-- 質問一覧 -->
+      <div class="app-theme">
+        <p>助成金コース診断</p>
+      </div>
+      <!-- 質問1 -->
+      <div id="q_01" class="fit">
+        <p>質問1:該当する選択肢を選んでください</p>
+        <ul>
+          <li><a class="btn" href="#q_02" data-value="a">正社員雇用の従業員がいる</a></li>
+          <li><a class="btn" href="#q_02" data-value="b">雇用保険・社会保険に加入している</a></li>
+          <li><a class="btn" href="#q_02" data-value="c">会社都合の解雇を6ヶ月以内にしていない</a></li>
+          <li><a class="btn" href="#q_02" data-value="d">上記いずれにも該当しない</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問2 -->
+      <div id="q_02" style="display: none;">
+        <p>質問2:非正規雇用から正規雇用転換の予定のメンバーがいる</p>
+        <ul>
+          <li><a class="btn" href="#q_03" data-value="2a">はい</a></li>
+          <li><a class="btn" href="#q_03" data-value="2b">いいえ</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問3 -->
+      <div id="q_03" style="display: none;">
+        <p>質問3:社内向けの外部研修を予定している</p>
+        <ul>
+          <li><a class="btn" href="#q_04" data-value="3a">はい</a></li>
+          <li><a class="btn" href="#q_04" data-value="3b">いいえ</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問4 -->
+      <div id="q_04" style="display: none;">
+        <p>質問4:出産予定の女性社員がいる</p>
+        <ul>
+          <li><a class="btn" href="#q_05" data-value="4a">はい</a></li>
+          <li><a class="btn" href="#q_05" data-value="4b">いいえ</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問5 -->
+      <div id="q_05" style="display: none;">
+        <p>質問5:60歳以上の非正規雇用の従業員がいる。または今後雇用する予定がある</p>
+        <ul>
+          <li><a class="btn" href="#q_06" data-value="5a">はい</a></li>
+          <li><a class="btn" href="#q_06" data-value="5b">いいえ</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問6 -->
+      <div id="q_06" style="display: none;">
+        <p>質問6:残業時間の縮小などで労務環境を整えていきたい</p>
+        <ul>
+          <li><a class="btn end"  data-value="6a">はい</a></li>
+          <li><a class="btn end"  data-value="6b">いいえ</a></li>
+        </ul>
+      </div>
+
+
+
+<!-- ここから以下回答 -->
+  <!-- 回答の答え1 -->
+     <div id="answer_01" class="result" style="display: none;">
+      <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type0">
+            <h4>対象助成コースはありませんでした</h4>
+      </div>
+      <div class="result_discription0">
+        <h2>@@@@</h2>
+        <p>
+          @@@@
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+       </div>
+     </div>
+
+
+
+  <!-- 回答の答え2 -->
+     <div id="answer_02" style="display: none;">
+          <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>正社員化コース（キャリアアップ助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11910500/000923177.pdf" target="_blank">
+            正社員化コース（キャリアアップ助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+        <p>
+          @@@@
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+       </div>
+     </div>
+
+  <!-- 回答の答え3 -->
+    <div id="answer_03" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>教育訓練休暇付与コース（人材開発支援助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11600000/000615989.pdf" target="_blank">
+            教育訓練休暇付与コース（人材開発支援助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+        <p>
+          @@@@
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+  
+  <!-- 回答の答え4 -->
+    <div id="answer_04" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>育児休業等支援コース（両立支援等助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <a href="https://www.mhlw.go.jp/content/000927607.pdf" target="_blank">
+          育児休業等支援コース（両立支援等助成金）の詳細資料はこちらから
+        </a>
+        <p>
+          @@@@
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+
+  <!-- 回答の答え5 -->
+    <div id="answer_05" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>65歳超継続雇用促進コース（65歳超雇用推進助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <a href="https://www.jeed.go.jp/elderly/subsidy/book_keizokuR4/html5.html#page=1" target="_blank">
+          65歳超継続雇用促進コース（65歳超雇用推進助成金）の詳細資料はこちらから
+        </a>
+        <p>
+          @@@@
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+
+  <!-- 回答の答え6 -->
+    <div id="answer_06" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）</h4>
+      </div>
+      <div class="result_discription1">
+        <a href="https://www.mhlw.go.jp/content/000922455.pdf" target="_blank">
+          働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）の詳細資料はこちらから
+        </a>
+        <p>
+          @@@@
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+
+<!-- 組み合わせ回答 --><!-- 組み合わせ回答 -->
+<!-- 回答の答え7 -->
+    <div id="answer_45" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>正社員化コース（キャリアアップ助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11910500/000923177.pdf" target="_blank">
+            正社員化コース（キャリアアップ助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>教育訓練休暇付与コース（人材開発支援助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11600000/000615989.pdf" target="_blank">
+            教育訓練休暇付与コース（人材開発支援助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+ </div>
+
+<!-- 回答の答え8 -->
+    <div id="answer_46" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>正社員化コース（キャリアアップ助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11910500/000923177.pdf" target="_blank">
+            正社員化コース（キャリアアップ助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>育児休業等支援コース（両立支援等助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000927607.pdf" target="_blank">
+            育児休業等支援コース（両立支援等助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+ </div>
+
+ <!-- 回答の答え9 -->
+    <div id="answer_47" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>正社員化コース（キャリアアップ助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11910500/000923177.pdf" target="_blank">
+            正社員化コース（キャリアアップ助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>65歳超継続雇用促進コース（65歳超雇用推進助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.jeed.go.jp/elderly/subsidy/book_keizokuR4/html5.html#page=1" target="_blank">
+            65歳超継続雇用促進コース（65歳超雇用推進助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+ </div>
+
+ <!-- 回答の答え10 -->
+    <div id="answer_48" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>正社員化コース（キャリアアップ助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11910500/000923177.pdf" target="_blank">
+            正社員化コース（キャリアアップ助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000922455.pdf" target="_blank">
+            働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+ </div>
+
+ <!-- 回答の答え11 -->
+    <div id="answer_56" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>教育訓練休暇付与コース（人材開発支援助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11600000/000615989.pdf" target="_blank">
+            教育訓練休暇付与コース（人材開発支援助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>育児休業等支援コース（両立支援等助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000927607.pdf" target="_blank">
+            育児休業等支援コース（両立支援等助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+ </div>
+ <!-- 回答の答え12 -->
+    <div id="answer_57" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>教育訓練休暇付与コース（人材開発支援助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11600000/000615989.pdf" target="_blank">
+            教育訓練休暇付与コース（人材開発支援助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>育児休業等支援コース（両立支援等助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000927607.pdf" target="_blank">
+            育児休業等支援コース（両立支援等助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+ </div>
+ <!-- 回答の答え13 -->
+    <div id="answer_58" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>教育訓練休暇付与コース（人材開発支援助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11600000/000615989.pdf" target="_blank">
+            教育訓練休暇付与コース（人材開発支援助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>育児休業等支援コース（両立支援等助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000927607.pdf" target="_blank">
+            育児休業等支援コース（両立支援等助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+ </div>
+ <!-- 回答の答え14 -->
+    <div id="answer_67" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>教育訓練休暇付与コース（人材開発支援助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11600000/000615989.pdf" target="_blank">
+            教育訓練休暇付与コース（人材開発支援助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>育児休業等支援コース（両立支援等助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000927607.pdf" target="_blank">
+            育児休業等支援コース（両立支援等助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+ </div>
+ <!-- 回答の答え15 -->
+    <div id="answer_68" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>教育訓練休暇付与コース（人材開発支援助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11600000/000615989.pdf" target="_blank">
+            教育訓練休暇付与コース（人材開発支援助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>育児休業等支援コース（両立支援等助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000927607.pdf" target="_blank">
+            育児休業等支援コース（両立支援等助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+<!-- 回答の答え -->
+    <div id="answer_78" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>65歳超継続雇用促進コース（65歳超雇用推進助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.jeed.go.jp/elderly/subsidy/book_keizokuR4/html5.html#page=1" target="_blank">
+            65歳超継続雇用促進コース（65歳超雇用推進助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000922455.pdf" target="_blank">
+            働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）
+          </a>
+        </h2>
+      </div>
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+
+
+<!-- 組み合わせ回答 --><!-- 組み合わせ回答 --><!-- 組み合わせ回答 -->
+ <!-- 回答の答え16 -->
+    <div id="answer_456" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>正社員化コース（キャリアアップ助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11910500/000923177.pdf" target="_blank">
+            正社員化コース（キャリアアップ助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>教育訓練休暇付与コース（人材開発支援助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11600000/000615989.pdf" target="_blank">
+            教育訓練休暇付与コース（人材開発支援助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+           <h4>育児休業等支援コース（両立支援等助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000927607.pdf" target="_blank">
+            育児休業等支援コース（両立支援等助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+ </div>
+ <!-- 回答の答え17 -->
+    <div id="answer_457" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>正社員化コース（キャリアアップ助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11910500/000923177.pdf" target="_blank">
+            正社員化コース（キャリアアップ助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>教育訓練休暇付与コース（人材開発支援助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11600000/000615989.pdf" target="_blank">
+            教育訓練休暇付与コース（人材開発支援助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+           <h4>65歳超継続雇用促進コース（65歳超雇用推進助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.jeed.go.jp/elderly/subsidy/book_keizokuR4/html5.html#page=1" target="_blank">
+            65歳超継続雇用促進コース（65歳超雇用推進助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+ </div>
+  <!-- 回答の答え18 -->
+    <div id="answer_458" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>正社員化コース（キャリアアップ助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11910500/000923177.pdf" target="_blank">
+            正社員化コース（キャリアアップ助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>教育訓練休暇付与コース（人材開発支援助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11600000/000615989.pdf" target="_blank">
+            教育訓練休暇付与コース（人材開発支援助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+           <h4>働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000922455.pdf" target="_blank">
+            働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+      
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+ </div>
+  <!-- 回答の答え19 -->
+    <div id="answer_467" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>正社員化コース（キャリアアップ助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11910500/000923177.pdf" target="_blank">
+            正社員化コース（キャリアアップ助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>育児休業等支援コース（両立支援等助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000927607.pdf" target="_blank">
+            育児休業等支援コース（両立支援等助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+           <h4>65歳超継続雇用促進コース（65歳超雇用推進助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.jeed.go.jp/elderly/subsidy/book_keizokuR4/html5.html#page=1" target="_blank">
+            65歳超継続雇用促進コース（65歳超雇用推進助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+      
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+ </div>
+  <!-- 回答の答え20 -->
+    <div id="answer_468" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>正社員化コース（キャリアアップ助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11910500/000923177.pdf" target="_blank">
+            正社員化コース（キャリアアップ助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>育児休業等支援コース（両立支援等助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000927607.pdf" target="_blank">
+            育児休業等支援コース（両立支援等助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+           <h4>働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000922455.pdf" target="_blank">
+            働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+      
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+ </div>
+  <!-- 回答の答え21 -->
+    <div id="answer_478" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>正社員化コース（キャリアアップ助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11910500/000923177.pdf" target="_blank">
+            正社員化コース（キャリアアップ助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>65歳超継続雇用促進コース（65歳超雇用推進助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.jeed.go.jp/elderly/subsidy/book_keizokuR4/html5.html#page=1" target="_blank">
+            65歳超継続雇用促進コース（65歳超雇用推進助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+           <h4>働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000922455.pdf" target="_blank">
+            働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+      
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+ </div>
+  <!-- 回答の答え22 -->
+    <div id="answer_567" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>教育訓練休暇付与コース（人材開発支援助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11600000/000615989.pdf" target="_blank">
+            教育訓練休暇付与コース（人材開発支援助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>育児休業等支援コース（両立支援等助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000927607.pdf" target="_blank">
+            育児休業等支援コース（両立支援等助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+           <h4>65歳超継続雇用促進コース（65歳超雇用推進助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.jeed.go.jp/elderly/subsidy/book_keizokuR4/html5.html#page=1" target="_blank">
+            65歳超継続雇用促進コース（65歳超雇用推進助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+      
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+ </div>
+  <!-- 回答の答え23 -->
+    <div id="answer_568" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>教育訓練休暇付与コース（人材開発支援助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11600000/000615989.pdf" target="_blank">
+            教育訓練休暇付与コース（人材開発支援助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>育児休業等支援コース（両立支援等助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000927607.pdf" target="_blank">
+            育児休業等支援コース（両立支援等助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+           <h4>働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000922455.pdf" target="_blank">
+            働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+      
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+ </div>
+  <!-- 回答の答え24 -->
+    <div id="answer_578" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>教育訓練休暇付与コース（人材開発支援助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11600000/000615989.pdf" target="_blank">
+            教育訓練休暇付与コース（人材開発支援助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>65歳超継続雇用促進コース（65歳超雇用推進助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.jeed.go.jp/elderly/subsidy/book_keizokuR4/html5.html#page=1" target="_blank">
+            65歳超継続雇用促進コース（65歳超雇用推進助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+           <h4>働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000922455.pdf" target="_blank">
+            働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+      
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+ </div>
+  <!-- 回答の答え25 -->
+    <div id="answer_678" style="display: none;">
+            <div class="result_theme">
+            <p>診断結果</p>
+      </div>
+      <div class="result_type1">
+            <h4>育児休業等支援コース（両立支援等助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000927607.pdf" target="_blank">
+            育児休業等支援コース（両立支援等助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+            <h4>65歳超継続雇用促進コース（65歳超雇用推進助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.jeed.go.jp/elderly/subsidy/book_keizokuR4/html5.html#page=1" target="_blank">
+            65歳超継続雇用促進コース（65歳超雇用推進助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+      <div class="result_type1">
+           <h4>働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000922455.pdf" target="_blank">
+            働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+      
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+    </div>
+ </div>
+
+ <!-- 回答の答え26 --><!-- 回答の答え26 --><!-- 回答の答え26 --><!-- 回答の答え26 -->
+  <div id="answer_4567" style="display: none;">
+    <div class="result_theme">
+      <p>診断結果</p>
+    </div>
+      <div class="result_type1">
+            <h4>正社員化コース（キャリアアップ助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11910500/000923177.pdf" target="_blank">
+            正社員化コース（キャリアアップ助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div class="result_type1">
+            <h4>教育訓練休暇付与コース（人材開発支援助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11600000/000615989.pdf" target="_blank">
+            教育訓練休暇付与コース（人材開発支援助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div class="result_type1">
+           <h4>育児休業等支援コース（両立支援等助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000927607.pdf" target="_blank">
+            育児休業等支援コース（両立支援等助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div class="result_type1">
+           <h4>65歳超継続雇用促進コース（65歳超雇用推進助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.jeed.go.jp/elderly/subsidy/book_keizokuR4/html5.html#page=1" target="_blank">
+            65歳超継続雇用促進コース（65歳超雇用推進助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+      
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+  </div>
+ <!-- 回答の答え27 -->
+  <div id="answer_4568" style="display: none;">
+    <div class="result_theme">
+      <p>診断結果</p>
+    </div>
+      <div class="result_type1">
+            <h4>正社員化コース（キャリアアップ助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11910500/000923177.pdf" target="_blank">
+            正社員化コース（キャリアアップ助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div class="result_type1">
+            <h4>教育訓練休暇付与コース（人材開発支援助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11600000/000615989.pdf" target="_blank">
+            教育訓練休暇付与コース（人材開発支援助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div class="result_type1">
+           <h4>育児休業等支援コース（両立支援等助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000927607.pdf" target="_blank">
+            育児休業等支援コース（両立支援等助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div class="result_type1">
+           <h4>働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000922455.pdf" target="_blank">
+            働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+      
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+  </div>
+   <!-- 回答の答え28 -->
+   <div id="answer_4578" style="display: none;">
+    <div class="result_theme">
+      <p>診断結果</p>
+    </div>
+      <div class="result_type1">
+            <h4>正社員化コース（キャリアアップ助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11910500/000923177.pdf" target="_blank">
+            正社員化コース（キャリアアップ助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div class="result_type1">
+            <h4>教育訓練休暇付与コース（人材開発支援助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11600000/000615989.pdf" target="_blank">
+            教育訓練休暇付与コース（人材開発支援助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div class="result_type1">
+           <h4>65歳超継続雇用促進コース（65歳超雇用推進助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.jeed.go.jp/elderly/subsidy/book_keizokuR4/html5.html#page=1" target="_blank">
+            65歳超継続雇用促進コース（65歳超雇用推進助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div class="result_type1">
+           <h4>働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000922455.pdf" target="_blank">
+            働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+      
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+  </div>
+   <!-- 回答の答え29 -->
+   <div id="answer_4678" style="display: none;">
+    <div class="result_theme">
+      <p>診断結果</p>
+    </div>
+      <div class="result_type1">
+            <h4>正社員化コース（キャリアアップ助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11910500/000923177.pdf" target="_blank">
+            正社員化コース（キャリアアップ助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div class="result_type1">
+            <h4>育児休業等支援コース（両立支援等助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000927607.pdf" target="_blank">
+            育児休業等支援コース（両立支援等助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div class="result_type1">
+           <h4>65歳超継続雇用促進コース（65歳超雇用推進助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.jeed.go.jp/elderly/subsidy/book_keizokuR4/html5.html#page=1" target="_blank">
+            65歳超継続雇用促進コース（65歳超雇用推進助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div class="result_type1">
+           <h4>働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000922455.pdf" target="_blank">
+            働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+      
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+  </div>
+   <!-- 回答の答え30 -->
+   <div id="answer_5678" style="display: none;">
+    <div class="result_theme">
+      <p>診断結果</p>
+    </div>
+      <div class="result_type1">
+            <h4>教育訓練休暇付与コース（人材開発支援助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11600000/000615989.pdf" target="_blank">
+            教育訓練休暇付与コース（人材開発支援助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div class="result_type1">
+            <h4>育児休業等支援コース（両立支援等助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000927607.pdf" target="_blank">
+            育児休業等支援コース（両立支援等助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div class="result_type1">
+           <h4>65歳超継続雇用促進コース（65歳超雇用推進助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.jeed.go.jp/elderly/subsidy/book_keizokuR4/html5.html#page=1" target="_blank">
+            65歳超継続雇用促進コース（65歳超雇用推進助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div class="result_type1">
+           <h4>働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000922455.pdf" target="_blank">
+            働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+      
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+  </div>
+  
+<!-- 回答の答え31 --><!-- 回答の答え31 --><!-- 回答の答え31 --><!-- 回答の答え31 --><!-- 回答の答え31 -->
+   <div id="answer_45678" style="display: none;">
+    <div class="result_theme">
+      <p>診断結果</p>
+    </div>
+
+      <div class="result_type1">
+            <h4>正社員化コース（キャリアアップ助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11910500/000923177.pdf" target="_blank">
+            正社員化コース（キャリアアップ助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div class="result_type1">
+            <h4>教育訓練休暇付与コース（人材開発支援助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/11600000/000615989.pdf" target="_blank">
+            教育訓練休暇付与コース（人材開発支援助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div class="result_type1">
+            <h4>育児休業等支援コース（両立支援等助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000927607.pdf" target="_blank">
+            育児休業等支援コース（両立支援等助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div class="result_type1">
+           <h4>65歳超継続雇用促進コース（65歳超雇用推進助成金）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.jeed.go.jp/elderly/subsidy/book_keizokuR4/html5.html#page=1" target="_blank">
+            65歳超継続雇用促進コース（65歳超雇用推進助成金）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div class="result_type1">
+           <h4>働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>
+          <a href="https://www.mhlw.go.jp/content/000922455.pdf" target="_blank">
+            働き方改革推進支援助成金（労働時間短縮・年休促進支援コース）の詳細資料はこちらから
+          </a>
+        </h2>
+      </div>
+
+      <div>
+        <p>
+          @@@@
+        </p>
+      </div>
+      
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+        </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
