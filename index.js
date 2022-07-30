@@ -9,7 +9,7 @@ $(function () {
 
 
 
-//選択ボタンデータを配列に入れてカウントする関数
+//選択ボタンデータを配列に入れてカウントする関数です
       var countA;
       var countB;
       var countC;
