@@ -110,22 +110,22 @@ $(function () {
       else if(countD ==1 && count2a==1 && count3a==0 && count4a==0 && count5a==0 && count6a==1) {
         $('#answer_48').css("display","");//回答10
       }
-      else if(countD ==1 && count3a==1 && count4a==1 && count4a==0 && count5a==0 && count6a==0) {
+      else if(countD ==1 && count2a==0 && count3a==1 && count4a==1 && count5a==0 && count6a==0) {
         $('#answer_56').css("display","");//回答11
       }
-      else if(countD ==1 && count3a==1 && count5a==1 && count4a==0 && count5a==0 && count6a==0) {
+      else if(countD ==1 && count2a==0 && count3a==1 && count4a==0 && count5a==1 && count6a==0) {
         $('#answer_57').css("display","");//回答12
       }
-      else if(countD ==1 && count3a==1 && count6a==1 && count4a==0 && count5a==0 && count6a==0) {
+      else if(countD ==1 && count2a==0 && count3a==1 && count4a==0 && count5a==0 && count6a==1) {
         $('#answer_58').css("display","");//回答13
       }
-      else if(countD ==1 && count4a==1 && count5a==1 && count4a==0 && count5a==0 && count6a==0) {
+      else if(countD ==1 && count2a==0 && count3a==0 && count4a==1 && count5a==1 && count6a==0) {
         $('#answer_67').css("display","");//回答14
       }
-      else if(countD ==1 && count4a==1 && count6a==1 && count4a==0 && count5a==0 && count6a==0) {
+      else if(countD ==1 && count2a==0 && count3a==0 && count4a==1 && count5a==0 && count6a==1) {
         $('#answer_68').css("display","");//回答15
       }
-      else if(countD ==1 && count5a==1 && count6a==1 && count4a==0 && count5a==0 && count6a==0) {
+      else if(countD ==1 && count2a==0 && count3a==0 && count4a==0 && count5a==1 && count6a==1) {
         $('#answer_78').css("display","");//回答16
       }
       //3個の組み合わせ
